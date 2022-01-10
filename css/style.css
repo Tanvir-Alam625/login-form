@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background-image: linear-gradient(rgba(89, 116, 109, 0.2), rgba(239, 255, 209, 0.3)), url(assest/joanna-kosinska-3BgkveM3y_k-unsplash.jpg);
+    background-image: linear-gradient(rgba(89, 116, 109, 0.2), rgba(239, 255, 209, 0.3)), url(../images/joanna-kosinska-3BgkveM3y_k-unsplash.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
