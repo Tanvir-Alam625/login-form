@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    background-image: linear-gradient(rgba(89, 116, 109, 0.2), rgba(239, 255, 209, 0.3)), url(assest/joanna-kosinska-3BgkveM3y_k-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.form-check-input {
+    display: flex;
+    justify-content: center;
+}
+
+.normal-opacity {
+    background-image: linear-gradient(rgba(170, 248, 229, 0.4), rgba(180, 228, 240, 0.6));
+    margin-top: 140px;
+    padding: 30px;
+    left: 170px;
+    position: absolute;
+    border-radius: 7px;
+    height: 65vh;
+}
+
+.form-items {
+    position: relative;
+}
+
+h2 {
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-size: 40px;
+    color: navy;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: help;
+    inline-size: 110px;
+    border-bottom: 2px solid navy;
+    border-block-end-width: 0.15rem;
+}
+
+.title {
+    color: orangered;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.border-stryle {
+    margin: 5px 0px;
+    padding: 15px 0px;
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+label {
+    font-size: 20px;
+    color: navy;
+    letter-spacing: 1px;
+}
+
+label .star {
+    color: orangered;
+}
+
+ :focus {
+    outline: none;
+}
+
+input[type="email"],
+input[type="password"] {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: rgb(32, 32, 58);
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+    letter-spacing: 1px;
+}
+
+.effect-1 {
+    border: 0;
+    padding: 4px 0;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.effect-1~.border-focus {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.effect-1:focus~.border-focus,
+.effect-1:valid~.border-focus {
+    width: 100%;
+    transition: 0.3s;
+    background-color: navy;
+}
+
+sup {
+    color: #FF4500;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: navy;
+    font-variant: normal;
+    font-weight: lighter;
+}
+
+a:hover {
+    color: orangered;
+    transition: 0.3s;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+.sign-up {
+    position: absolute;
+    right: 0px;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform: none;
+    background-color: transparent;
+}
+
+.sign-up:hover {
+    color: green;
+    transition: 0.3s;
+}
+
+.btn {
+    margin-top: 25px;
+    background-color: transparent;
+}
+
+.login-btn {
+    width: 100%;
+    position: absolute;
+    padding: 7px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ebebeb;
+    cursor: pointer;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background: #352e74;
+    background: -webkit-linear-gradient(to right, #35315a, #5751a1, #121246);
+    background: linear-gradient(to right, #34314d, #4335c4, #10103b);
+    transition: 0.3s;
+}
